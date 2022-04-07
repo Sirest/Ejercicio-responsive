@@ -1,0 +1,41 @@
+#header{
+    background-color: rgb(157, 143, 125);
+    padding: 5rem 0;
+}
+#hero{
+    background-color: black;
+    padding: 5rem 0;
+}
+#content{
+    background-color:aquamarine;
+    padding: 5rem 0;
+}
+#SIDEBAR{
+    background-color: blueviolet;
+    padding: 5rem 0;
+}
+#footer{
+    background-color: beige;
+    padding: 5rem 0;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+}
+
+/* Moviles */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #grid{
+        grid-template-columns: 1fr;
+    }
+}
+/* Tablets */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
